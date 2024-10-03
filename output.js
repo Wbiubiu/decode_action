@@ -1,3 +1,6 @@
+//Thu Oct 03 2024 21:17:12 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
 !function (_0x3f0b5b, _0x359dab) {
   "object" == typeof exports && "undefined" != typeof module ? module.exports = _0x359dab() : "function" == typeof define && define.amd ? define(_0x359dab) : (_0x3f0b5b = "undefined" != typeof globalThis ? globalThis : _0x3f0b5b || self).Snowflakes = _0x359dab();
 }(this, function () {
