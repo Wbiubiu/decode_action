@@ -1,99 +1,73 @@
-//Tue Jun 24 2025 10:52:31 GMT+0000 (Coordinated Universal Time)
+//Tue Jun 24 2025 11:01:46 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
-function ywgWqH(_0x425de0, _0x4736ed) {
-  return;
-  ywgWqH = function (_0x3ad4b6, _0x494f23) {
-    _0x3ad4b6 = _0x3ad4b6 - 0;
-    var _0xe2924 = _0x5e50e6[_0x3ad4b6];
-    return _0xe2924;
+function _0x1822(_0x24fe27, _0x3d6c17) {
+  const _0x3235ab = _0x3de2();
+  _0x1822 = function (_0x18116f, _0x554e9f) {
+    _0x18116f = _0x18116f - 0;
+    let _0x53d9d2 = _0x3235ab[_0x18116f];
+    if (_0x1822.upBbNo === undefined) {
+      var _0x5b7913 = function (_0x29fd2e) {
+        const _0x4c087b = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
+        let _0x463cb1 = "";
+        let _0x115e69 = "";
+        let _0x49592f = 0;
+        let _0x18224d;
+        let _0x1a06ca;
+        for (let _0xd4eec5 = 0; _0x1a06ca = _0x29fd2e.charAt(_0xd4eec5++); ~_0x1a06ca && (_0x18224d = _0x49592f % 4 ? _0x18224d * 64 + _0x1a06ca : _0x1a06ca, _0x49592f++ % 4) ? _0x463cb1 += String.fromCharCode(255 & _0x18224d >> (-2 * _0x49592f & 6)) : 0) {
+          _0x1a06ca = _0x4c087b.indexOf(_0x1a06ca);
+        }
+        let _0x549d0d = 0;
+        for (let _0x24e004 = _0x463cb1.length; _0x549d0d < _0x24e004; _0x549d0d++) {
+          _0x115e69 += "%" + ("00" + _0x463cb1.charCodeAt(_0x549d0d).toString(16)).slice(-2);
+        }
+        return decodeURIComponent(_0x115e69);
+      };
+      const _0xe63ffd = function (_0x5bce2d, _0x3f69ea) {
+        let _0x5383da = [];
+        let _0x8db439 = 0;
+        let _0x25c93d;
+        let _0x2bef33 = "";
+        _0x5bce2d = _0x5b7913(_0x5bce2d);
+        let _0x1cf113;
+        for (_0x1cf113 = 0; _0x1cf113 < 256; _0x1cf113++) {
+          _0x5383da[_0x1cf113] = _0x1cf113;
+        }
+        for (_0x1cf113 = 0; _0x1cf113 < 256; _0x1cf113++) {
+          _0x8db439 = (_0x8db439 + _0x5383da[_0x1cf113] + _0x3f69ea.charCodeAt(_0x1cf113 % _0x3f69ea.length)) % 256;
+          _0x25c93d = _0x5383da[_0x1cf113];
+          _0x5383da[_0x1cf113] = _0x5383da[_0x8db439];
+          _0x5383da[_0x8db439] = _0x25c93d;
+        }
+        _0x1cf113 = 0;
+        _0x8db439 = 0;
+        for (let _0x1a78a3 = 0; _0x1a78a3 < _0x5bce2d.length; _0x1a78a3++) {
+          _0x1cf113 = (_0x1cf113 + 1) % 256;
+          _0x8db439 = (_0x8db439 + _0x5383da[_0x1cf113]) % 256;
+          _0x25c93d = _0x5383da[_0x1cf113];
+          _0x5383da[_0x1cf113] = _0x5383da[_0x8db439];
+          _0x5383da[_0x8db439] = _0x25c93d;
+          _0x2bef33 += String.fromCharCode(_0x5bce2d.charCodeAt(_0x1a78a3) ^ _0x5383da[(_0x5383da[_0x1cf113] + _0x5383da[_0x8db439]) % 256]);
+        }
+        return _0x2bef33;
+      };
+      _0x1822.KBdwTn = _0xe63ffd;
+      _0x24fe27 = arguments;
+      _0x1822.upBbNo = true;
+    }
+    const _0x599e3a = _0x3235ab[0];
+    const _0x3de201 = _0x18116f + _0x599e3a;
+    const _0x5b7600 = _0x24fe27[_0x3de201];
+    if (!_0x5b7600) {
+      if (_0x1822.Kbhqdp === undefined) {
+        _0x1822.Kbhqdp = true;
+      }
+      _0x53d9d2 = _0x1822.KBdwTn(_0x53d9d2, _0x554e9f);
+      _0x24fe27[_0x3de201] = _0x53d9d2;
+    } else {
+      _0x53d9d2 = _0x5b7600;
+    }
+    return _0x53d9d2;
   };
-  return ywgWqH(_0x425de0, _0x4736ed);
+  return _0x1822(_0x24fe27, _0x3d6c17);
 }
-ywgWqH();
-happyb();
-happyc();
-var _0x7648c = 12;
-var aa = "10@02$329@l8fk5jkd@sf5gdgehuiop9";
-_0x7648c = 3;
-var _0x2162cd = 14;
-var aaiv = "k5jkd@sfedfdgevs";
-_0x2162cd = 18;
-encode = function (_0x2003ce) {
-  try {
-    var _0x517a99 = CryptoJS.AES.encrypt(_0x2003ce, CryptoJS.enc.Utf8.parse(aa), {
-      iv: CryptoJS.enc.Utf8.parse(aaiv),
-      mode: CryptoJS.mode.CBC,
-      padding: CryptoJS.pad.Pkcs7
-    }).toString();
-    return _0x517a99;
-  } catch (_0x449395) {
-    return "加密失败";
-  }
-};
-decode = function (_0x222155) {
-  happyx();
-  try {
-    if (!_0x222155 && _0x222155 == " ") {
-      return "";
-    }
-    let _0x3c1aed;
-    var _0x524fc4 = CryptoJS.AES.decrypt(_0x222155, CryptoJS.enc.Utf8.parse(aa), {
-      iv: CryptoJS.enc.Utf8.parse(aaiv),
-      mode: CryptoJS.mode.CBC,
-      padding: CryptoJS.pad.Pkcs7
-    }).toString(CryptoJS.enc.Utf8);
-    _0x3c1aed = 11;
-    if (!_0x524fc4) {
-      let _0x167268;
-      var _0x5c93e5 = "解密失败-为空：" + window.location.href + "|" + _0x222155 + "|";
-      _0x167268 = "mhbmlp";
-    }
-    return _0x524fc4;
-  } catch (_0x406e65) {
-    var _0x9801b6 = 7;
-    var _0x5c93e5 = "解密失败-异常：" + window.location.href + "|" + _0x222155 + "|";
-    _0x9801b6 = 5;
-    return "解密失败";
-  }
-};
-decoderes = function (_0xcaa198) {
-  return _0xcaa198;
-};
-mkparms = function (_0x5a5f57) {
-  happyx();
-  var _0x5f5c22 = 8;
-  var _0x40a4f9 = new Date().getTime() + "" + Math.ceil(Math.random() * 1000);
-  _0x5f5c22 = 4;
-  var _0x2849b4 = CryptoJS.MD5(decode(kk) + _0x40a4f9).toString();
-  _0x5a5f57.t = _0x40a4f9;
-  _0x5a5f57.s = _0x2849b4;
-  return _0x5a5f57;
-};
-linkto = function (_0xa4cc6d, _0x3f1933) {
-  var _0x2d6d9b = decode(_0xa4cc6d);
-  if (!(_0x3f1933 == "_blank")) {
-    window.location.href = _0x2d6d9b;
-  }
-};
-function IvFMqr(_0x58685a, _0x1d8117) {
-  return;
-  IvFMqr = function (_0x3da3f7, _0x3916d7) {
-    _0x3da3f7 = _0x3da3f7 - 0;
-    var _0x48dd56 = _0x5e50e6[_0x3da3f7];
-    return _0x48dd56;
-  };
-  return IvFMqr(_0x58685a, _0x1d8117);
-}
-IvFMqr();
-setimagesrc = function (_0x1210da, _0x20d1e3) {
-  try {
-    if (_0x20d1e3) {
-      let _0x1e1d8f;
-      var _0x20d1e3 = decode(_0x20d1e3);
-      _0x1e1d8f = "mdleho";
-      _0x1210da.src = _0x20d1e3;
-      _0x1210da.onload = null;
-    }
-  } catch (_0x3c8010) {}
-};
