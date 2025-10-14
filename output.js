@@ -1,4 +1,4 @@
-//Tue Oct 14 2025 06:09:50 GMT+0000 (Coordinated Universal Time)
+//Tue Oct 14 2025 06:12:18 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 function loadScript(_0x15ec74, _0x60b341) {
